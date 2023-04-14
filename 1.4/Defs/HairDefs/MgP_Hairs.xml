@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<StyleItemCategoryDef>
+		<defName>MagiaPlant</defName>
+		<label>MagiaPlant</label>
+	</StyleItemCategoryDef>
+	
+	<HairDef>
+		<defName>MagiaPlant_Short</defName>
+		<label>MagiaPlant Short</label>
+		<styleGender>Any</styleGender>
+		<texPath>MagiaPlant/Race/Hair/Short/Short</texPath>
+		<category>MagiaPlant</category>
+		<styleTags>
+			<li>MagiaPlant</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>MagiaPlant_Okappa</defName>
+		<label>MagiaPlant Okappa</label>
+		<styleGender>Any</styleGender>
+		<texPath>MagiaPlant/Race/Hair/Okappa/Okappa</texPath>
+		<category>MagiaPlant</category>
+		<styleTags>
+			<li>MagiaPlant</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>MagiaPlant_Long</defName>
+		<label>MagiaPlant Long</label>
+		<styleGender>Any</styleGender>
+		<texPath>MagiaPlant/Race/Hair/Long/Long</texPath>
+		<category>MagiaPlant</category>
+		<styleTags>
+			<li>MagiaPlant</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>MagiaPlant_Mituami</defName>
+		<label>MagiaPlant Mituami</label>
+		<styleGender>Any</styleGender>
+		<texPath>MagiaPlant/Race/Hair/Mituami/Mituami</texPath>
+		<category>MagiaPlant</category>
+		<styleTags>
+			<li>MagiaPlant</li>
+		</styleTags>
+	</HairDef>
+
+	<HairDef>
+		<defName>MagiaPlant_TwintailLike</defName>
+		<label>MagiaPlant TwintailLike</label>
+		<styleGender>Any</styleGender>
+		<texPath>MagiaPlant/Race/Hair/TwintailLike/TwintailLike</texPath>
+		<category>MagiaPlant</category>
+		<styleTags>
+			<li>MagiaPlant</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>MagiaPlant_Mekakure_L</defName>
+		<label>MagiaPlant Mekakure L</label>
+		<styleGender>Any</styleGender>
+		<texPath>MagiaPlant/Race/Hair/MekakureL/MekakureL</texPath>
+		<category>MagiaPlant</category>
+		<styleTags>
+			<li>MagiaPlant</li>
+		</styleTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>MagiaPlant_Mekakure_R</defName>
+		<label>MagiaPlant Mekakure R</label>
+		<styleGender>Any</styleGender>
+		<texPath>MagiaPlant/Race/Hair/MekakureR/MekakureR</texPath>
+		<category>MagiaPlant</category>
+		<styleTags>
+			<li>MagiaPlant</li>
+		</styleTags>
+	</HairDef>
+	
+</Defs>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 子供 -->
+
+  <MgP_Child_N_A.title>工場生産</MgP_Child_N_A.title>
+  <MgP_Child_N_A.titleShort>工場生産</MgP_Child_N_A.titleShort>
+  <MgP_Child_N_A.baseDesc>[PAWN_nameDef]は工場で生産されたマギアプラントです.</MgP_Child_N_A.baseDesc>
+
+  <MgP_Child_N_B.title>コロニー生まれ</MgP_Child_N_B.title>
+  <MgP_Child_N_B.titleShort>コロニー</MgP_Child_N_B.titleShort>
+  <MgP_Child_N_B.baseDesc>[PAWN_nameDef]は工場ではなく,あるコロニーで生まれたマギアプラントです.</MgP_Child_N_B.baseDesc>
+
+
+  <!-- 大人 -->
+
+  <MgP_Adult_N_A.title>学校通い</MgP_Adult_N_A.title>
+  <MgP_Adult_N_A.titleShort>学生</MgP_Adult_N_A.titleShort>
+  <MgP_Adult_N_A.baseDesc>何らかの理由で,過去に[PAWN_nameDef]は学生生活を送っていました. 彼女はその経験で交友を深めることが出来ました.</MgP_Adult_N_A.baseDesc>
+
+  <MgP_Adult_N_B.title>旅人</MgP_Adult_N_B.title>
+  <MgP_Adult_N_B.titleShort>旅人</MgP_Adult_N_B.titleShort>
+  <MgP_Adult_N_B.baseDesc>[PAWN_nameDef]はある程度成長した後,旅に出ることにしました.</MgP_Adult_N_B.baseDesc>
+
+  <MgP_Adult_N_C.title>正義の使い</MgP_Adult_N_C.title>
+  <MgP_Adult_N_C.titleShort>使い</MgP_Adult_N_C.titleShort>
+  <MgP_Adult_N_C.baseDesc>[PAWN_nameDef]は自分が持つ力に自信を持ち,この力を人のために使おうと様々な場所で戦い続けました.</MgP_Adult_N_C.baseDesc>
+
+  <MgP_Adult_N_D.title>静かな戦士</MgP_Adult_N_D.title>
+  <MgP_Adult_N_D.titleShort>戦士</MgP_Adult_N_D.titleShort>
+  <MgP_Adult_N_D.baseDesc>[PAWN_nameDef]はかつて何かに裏切られる経験をしました. その経験から,彼女は自分の力だけを頼りにするようになりました.</MgP_Adult_N_D.baseDesc>
+
+
+</LanguageData>

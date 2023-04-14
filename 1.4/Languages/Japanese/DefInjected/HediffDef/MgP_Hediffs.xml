@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MgP_ContinuousHealing.label>急速治癒</MgP_ContinuousHealing.label>
+  <MgP_ContinuousHealing.description>MSを消費して,欠損や傷を高速で治癒している状態です.</MgP_ContinuousHealing.description>
+
+  <MgP_ShadowEmotions.label>陰る感情</MgP_ShadowEmotions.label>
+  <MgP_ShadowEmotions.description>心情が15%以上の場合,15%で固定されます.\n\n低心情時の魔法関連の恩恵を得ますが,MSを急速的に消費していきます.</MgP_ShadowEmotions.description>
+
+  <MgP_RelaxMode.label>リラックスモード</MgP_RelaxMode.label>
+  <MgP_RelaxMode.description>マギアプラントの他の能力を封印する代わりに,MSを急速的に回復している状態です.</MgP_RelaxMode.description>
+
+
+</LanguageData>

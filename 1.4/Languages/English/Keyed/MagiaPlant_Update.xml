@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<MagiaPlant.Update.Title>MagiaPlant Update</MagiaPlant.Update.Title>
+
+<MagiaPlant.Update.label>
+2023/03/27(0.1.1.0):
+*Fixed some graphics
+
+*Separated FacialAnimation definitions into separate mods
+To reduce the load at startup, I have separated FacialAnimation images and definitions into separate mods.
+Please subscribe from the collection.
+
+2023/03/16(0.1.0.0):
+*Upload
+
+</MagiaPlant.Update.label>
+
+</LanguageData>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MgP_Knowledge.label>知識</MgP_Knowledge.label>
+  <MgP_Knowledge.description>マギアプラントの知識について学びます.</MgP_Knowledge.description>
+
+  <MgP_EmotionGenerator.label>感情式発電機</MgP_EmotionGenerator.label>
+  <MgP_EmotionGenerator.description>マギアプラントのMSを消費して発電する発電機を作成できるようになります.</MgP_EmotionGenerator.description>
+
+  <MgP_Weapon.label>武器</MgP_Weapon.label>
+  <MgP_Weapon.description>マギアプラントの魔法的な力で動く武器を作成できるようになります.</MgP_Weapon.description>
+
+  <MgP_Charge.label>チャージ</MgP_Charge.label>
+  <MgP_Charge.description>マギアプラントが急速的にMSを回復するスキルを使用できるようになります.</MgP_Charge.description>
+
+  <MgP_Costumes.label>衣装</MgP_Costumes.label>
+  <MgP_Costumes.description>マギアプラント用の衣装を作成できるようになります.</MgP_Costumes.description>
+
+
+</LanguageData>

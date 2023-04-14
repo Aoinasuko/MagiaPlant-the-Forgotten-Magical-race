@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MgP_EmotionGenerator.label>MgP 感情式発電機</MgP_EmotionGenerator.label>
+  <MgP_EmotionGenerator.description>マギアプラントの感情を糧に発電を行う機械です.\n\nマップ内にいるマギアプラントの数に応じて発電を行いますが,少しずつMSを消費します.\nあまりにも多くの発電機を設置してしまうと,MSの回復力に追いつかなくなるでしょう.\n\nまた,マギアプラントのMSが尽きた時,膨大なエネルギーを受け取り数日の間多くの量の発電を行うことが可能です.</MgP_EmotionGenerator.description>
+
+</LanguageData>

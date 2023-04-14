@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ResearchTabDef>
+		<defName>MgP_Research</defName>
+		<label>MagiaPlant</label>
+	</ResearchTabDef>
+	
+	<ResearchProjectDef>
+	    <defName>MgP_Knowledge</defName>
+	    <label>Knowledge</label>
+	    <description>You will learn about MagiaPlant.</description>
+	    <baseCost>1000</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>MgP_Research</li>
+	    </tab>
+	    <researchViewX>0</researchViewX>
+	    <researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+	    <defName>MgP_EmotionGenerator</defName>
+	    <label>Emotion Generator</label>
+	    <description>MagiaPlant's MS will allow you to build devices that generate electricity.</description>
+	    <baseCost>1000</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>MgP_Research</li>
+	    </tab>
+	    <prerequisites>
+	      <li>Electricity</li>
+	      <li>MgP_Knowledge</li>
+	    </prerequisites>
+	    <researchViewX>1</researchViewX>
+	    <researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+	    <defName>MgP_Weapon</defName>
+	    <label>Weapon</label>
+	    <description>It will be possible to create weapons that can augment MagiaPlant's magical power.</description>
+	    <baseCost>1000</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>MgP_Research</li>
+	    </tab>
+	    <prerequisites>
+	      <li>MgP_Knowledge</li>
+	    </prerequisites>
+	    <researchViewX>1</researchViewX>
+	    <researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+	    <defName>MgP_Charge</defName>
+	    <label>Charge</label>
+	    <description>MagiaPlant will be able to use skills to suppress power and rapidly restore MS.</description>
+	    <baseCost>1000</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>MgP_Research</li>
+	    </tab>
+	    <prerequisites>
+	      <li>MgP_Weapon</li>
+	    </prerequisites>
+	    <researchViewX>2</researchViewX>
+	    <researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+	    <defName>MgP_Costumes</defName>
+	    <label>Costumes</label>
+	    <description>It will allow you to create MagiaPlant outfits.</description>
+	    <baseCost>500</baseCost>
+	    <techLevel>Industrial</techLevel>
+	    <tab>
+	      <li>MgP_Research</li>
+	    </tab>
+	    <prerequisites>
+	      <li>MgP_Knowledge</li>
+	    </prerequisites>
+	    <researchViewX>1</researchViewX>
+	    <researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+	
+</Defs>

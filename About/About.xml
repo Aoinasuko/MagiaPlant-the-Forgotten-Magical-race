@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>MagiaPlant the Forgotten Magical race</name>
+  <author>Aoi_nasuko</author>
+  <packageId>bep.magiaplant.tfmr</packageId>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+      <downloadUrl></downloadUrl>
+    </li>
+    <li>
+      <packageId>Torann.ARimworldOfMagic</packageId>
+      <displayName>A RimWorld of Magic</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1201382956</steamWorkshopUrl>
+      <downloadUrl></downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>erdelf.HumanoidAlienRaces</li>
+    <li>Nals.FacialAnimation</li>
+    <li>Nals.FacialAnimationExperimentals</li>
+  </loadAfter>
+  <incompatibleWith>
+    <li>bep.littlefairy.ropeworktale</li>
+  </incompatibleWith>
+  <description><![CDATA[
+【対応言語】
+日本語
+English(Machine translation)
+
+忘れられた大陸の魔法少女、マギアプラント。
+
+<color=#77FFFF><size=20>＊概要</size></color>
+魔法の力を上手に扱える植物の様な種族、マギアプラントとその関連技術を追加します。
+
+<color=#77FFFF><size=15>＊注意</size></color>
+<color=#FF7777>マギアプラントは仕様上拠点に壊滅的な被害を及ぼしかねないリスクを持っています。</color>
+<color=#FF7777>運用の際は十分に注意してください。</color>
+
+<color=#77FFFF><size=15>＊ストーリー</size></color>
+マギアプラントは「忘れられた大陸」のある場所に埋もれていた研究所内で、調査によって保管されていた個体が発見されて判明した種族です。
+特殊なメカナイトの影響なのか、体の表面こそ植物に近い成分ですが、内蔵などは多少植物の特徴があること以外は人間と同じだったため、
+研究のために個体数を増やすことは容易に成功しました。
+そしてある程度の研究の後に、様々な星に売られたり、自分から旅に出たマギアプラント達が様々な星へ移住していきました。
+
+彼女たちは感情が高ぶると、体内のメカナイトを活性化させます。
+メカナイトが活性化した彼女たちは特定の星でのみ確認されている「魔法」の力を効率的に運用できるようになります。
+しかし、力を使いすぎてしまうと彼女たちは怪物に変貌してしまう事があるようです。
+
+<color=#77FFFF><size=15>＊入手方法</size></color>
+-時折、奴隷として売られているため購入して入手
+-救助の対象として選ばれることがあるため救助して入手
+
+<color=#77FFFF><size=15>＊特徴</size></color>
+<color=#77FFFF>-体格がやや小さい</color>
+<color=#77FFFF>-暑さに少し強い</color>
+<color=#77FFFF>-精神感応性が高い</color>
+<color=#77FFFF>-人間の武器が装備可能</color>
+<color=#77FFFF>-死体を解体してもペナルティを受けず、食べても人肉扱いではない</color>
+<color=#77FFFF>-Ideorogy導入時、奴隷状態の時に脱走しない</color>
+<color=#77FFFF>-魔法のクールダウンの消費速度が2倍になる</color>
+
+<color=#FF7777>-部位HPが若干低い</color>
+<color=#FF7777>-燃えやすい</color>
+<color=#FF7777>-移動速度が少し遅い</color>
+<color=#FF7777>-寒さに少し弱い</color>
+<color=#FF7777>-作業速度が極めて遅い</color>
+<color=#FF7777>-物覚えが極めて悪い</color>
+<color=#FF7777>-お肉が取れない</color>
+
+<color=#77FFFF>-専用リソースのMSを所持している</color>
+<color=#77FFFF>MSは初期状態では1000所持しており,魔法系のジョブの才能を持っている場合レベルに応じて上限が上昇します</color>
+<color=#77FFFF>MSは以下の条件で消費されていきます</color>
+<color=#77FFFF>--意識があり更に心情が20%以下の時,少しずつ消費する代わりに魔法関連の能力が強化される</color>
+<color=#77FFFF>--マナが消費されている場合,MSを消費してマナを急速的に回復</color>
+<color=#77FFFF>--魔力の衰弱状態の時,MSを消費して魔力の衰弱を急速的に回復</color>
+<color=#77FFFF>--その他,マギアプラントが持つスキルの使用や建築物の効果で消費</color>
+<color=#FF7777>MSが0になった時,マギアプラントは即死して極めて強力な敵対的な生物に変態するためMSの残量には常に注意する必要があります</color>
+
+<color=#77FFFF><size=20>＊その他、このMODで追加されるもの</size></color>
+-マギアプラントの研究が追加されます。
+-マギアプラントの建築物を追加します。
+-マギアプラントの衣装と武器を追加します。
+
+]]></description>
+</ModMetaData>

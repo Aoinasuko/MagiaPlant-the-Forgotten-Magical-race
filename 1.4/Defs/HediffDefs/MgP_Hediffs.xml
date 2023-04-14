@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <HediffDef>
+    <defName>MgP_ContinuousHealing</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.4, 0.6, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <label>Continuous Healing</label>
+    <description>Continue to consume MS to heal site loss or injury.</description>
+    <stages>
+      <li>
+      </li>
+    </stages>
+    <comps>
+      <li Class="MagiaPlant_Race.HediffCompProperties_DisappearFaction">
+      </li>
+      <li Class="MagiaPlant_Race.HediffCompProperties_Heal">
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>MgP_ShadowEmotions</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.4, 0.6, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <label>Shadow Emotions</label>
+    <description>If Mood is greater than 15%, it is fixed at 15%.\n\nVarious magical enhancements at low Mood are activated, further improving physical abilities, but consuming MS heavily.</description>
+    <stages>
+      <li>
+        <painFactor>0</painFactor>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <postFactor>2.0</postFactor>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <postFactor>2.0</postFactor>
+          </li>
+        </capMods>
+        <statFactors>
+          <IncomingDamageFactor>0.5</IncomingDamageFactor>
+        </statFactors>
+      </li>
+    </stages>
+    <comps>
+      <li Class="MagiaPlant_Race.HediffCompProperties_DisappearFaction">
+      </li>
+      <li Class="MagiaPlant_Race.HediffCompProperties_Runaway">
+      </li>
+    </comps>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>MgP_RelaxMode</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.4, 0.6, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+    <label>Relax Mode</label>
+    <description>During activation of this skill, MagiaPlant's other skills are disabled, such as the rapid recovery ability of mana, but it quickly recovers MS.</description>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <postFactor>0.25</postFactor>
+          </li>
+        </capMods>
+        <statFactors>
+          <IncomingDamageFactor>2.0</IncomingDamageFactor>
+        </statFactors>
+      </li>
+    </stages>
+    <comps>
+      <li Class="MagiaPlant_Race.HediffCompProperties_DisappearFaction">
+      </li>
+    </comps>
+  </HediffDef>
+  
+</Defs>

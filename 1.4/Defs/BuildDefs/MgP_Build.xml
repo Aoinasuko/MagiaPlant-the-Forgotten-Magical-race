@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>MgP_EmotionGenerator</defName>
+    <label>MgP EmotionGenerator</label>
+    <description>The device feeds on the MagiaPlant's emotions to generate power, and can generate more power when the MagiaPlant runs out of power, but at the same time it will have to face disaster.\n\nThe device periodically consumes MagiaPlant MS to generate electricity. the more MagiaPlants you have, the more electricity you will generate.\n\nIf the number of MagiaPlant MS in the map is reduced to zero and a metamorphosis takes place, the device will generate an enormous amount of electricity for several days.</description>
+    <size>(1,1)</size>
+    <receivesSignals>true</receivesSignals>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>3000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <designationCategory>BEPFT_Building</designationCategory>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>MagiaPlant/Build/Generator/Generator</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <damageData>
+        <rect>(0.2, 0.2, 0.6, 0.6)</rect>
+      </damageData>
+    </graphicData>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+    </building>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <placeWorkers>
+      <li>PlaceWorker_ShowProjectileInterceptorRadius</li>
+    </placeWorkers>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>MagiaPlant_Race.Comp_Generator</compClass>
+        <basePowerConsumption>-2000</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Glower">
+        <glowRadius>4</glowRadius>
+        <glowColor>(200,255,200,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+    <costList>
+      <Steel>100</Steel>
+      <Plasteel>50</Plasteel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <researchPrerequisites>
+      <li>MgP_EmotionGenerator</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+  </ThingDef>
+  
+</Defs>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>MgP_ForestOfDisaster</defName>
+    <label>Forest of Disaster</label>
+    <description>The MagiaPlant has run out of power and the Mechanite in its body has gone haywire, resulting in a metamorphosis.\n\nTheir bodies can no longer sustain themselves for more than a few days. But until they decay, their various grudges spread curses and despair.\n\nShe disappears after approximately one day.</description>
+    <statBases>
+      <MoveSpeed>10.4</MoveSpeed>
+      <MarketValue>8000</MarketValue>
+      <ComfyTemperatureMin>-1000</ComfyTemperatureMin>
+      <ComfyTemperatureMax>1000</ComfyTemperatureMax>
+      <ArmorRating_Sharp>2.00</ArmorRating_Sharp>
+      <ArmorRating_Blunt>2.00</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.10</ArmorRating_Heat>
+      <IncomingDamageFactor>0.1</IncomingDamageFactor>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+      <ToxicResistance>1</ToxicResistance>
+    </statBases>
+    <tools>
+      <li>
+        <label>horn tentacle</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>300</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>300</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+      <li>
+        <label>left foot</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>120</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right foot</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>120</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithHoovesAndHorn</body>
+      <herdMigrationAllowed>false</herdMigrationAllowed>
+      <baseBodySize>4</baseBodySize>
+      <baseHungerRate>0.1</baseHungerRate>
+      <baseHealthScale>20</baseHealthScale>
+      <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
+      <trainability>Advanced</trainability>
+      <gestationPeriodDays>30</gestationPeriodDays>
+      <manhunterOnTameFailChance>1</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
+      <wildness>1</wildness>
+      <lifeExpectancy>1000</lifeExpectancy>
+      <specificMeatDef>Jade</specificMeatDef>
+      <lifeStageAges>
+        <li>
+          <def>AnimalAdult</def>
+          <soundCall>Pawn_Thrumbo_Call</soundCall>
+          <soundAngry>Pawn_Thrumbo_Angry</soundAngry>
+          <soundWounded>Pawn_Thrumbo_Pain</soundWounded>
+          <soundDeath>Pawn_Thrumbo_Death</soundDeath>
+        </li>
+      </lifeStageAges>
+      <ageGenerationCurve>
+        <points>
+          <li>(6,0)</li>
+          <li>(7,100)</li>
+          <li>(10,100)</li>
+          <li>(150,80)</li>
+          <li>(160,0)</li>
+        </points>
+      </ageGenerationCurve>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <comps>
+      <li Class="MagiaPlant_Race.CompProperties_ToxicMonster">
+      </li>
+    </comps>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>MgP_ForestOfDisaster</defName>
+    <label>Forest of Disaster</label>
+    <race>MgP_ForestOfDisaster</race>
+    <combatPower>3000</combatPower>
+    <canArriveManhunter>false</canArriveManhunter>
+    <ecoSystemWeight>9999</ecoSystemWeight>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>MagiaPlant/Pawn/ForestOfDisaster/ForestOfDisaster</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>10.0</drawSize>
+          <shadowData>
+            <volume>(1, 0.8, 0.5)</volume>
+            <offset>(0,0,-0.5)</offset>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+</Defs>

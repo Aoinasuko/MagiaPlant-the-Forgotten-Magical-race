@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MagiaPlant_Pawn.label>マギアプラント</MagiaPlant_Pawn.label>
+  <MagiaPlant_Pawn.description>マギアプラントは「忘れられた大陸」のある場所に埋もれていた研究所内で,調査によって保管されていた個体が発見されて判明した種族です. 特殊なメカナイトの影響なのか,体の表面こそ植物に近い成分ですが内蔵などは多少植物の特徴があること以外は人間と同じだったため,研究のために個体数を増やすことは容易に成功しました. そしてある程度の研究の後に様々な星に売られたり,自分から旅に出たマギアプラント達が様々な星へ移住していきました.\n\n彼女たちは感情が高ぶると,体内のメカナイトを活性化させます. メカナイトが活性化した彼女たちは特定の星でのみ確認されている「魔法」の力を効率的に運用できるようになります. しかし力を使いすぎてしまうと彼女たちは怪物に変貌してしまう事があるようです.\n\n&lt;color=#FF5555&gt;彼女たちは各種能力を使用したり,マナの急速回復が行われるとMSを消費します. MSを消費しすぎて0になると致命的な現象が発生するため注意してください.&lt;/color&gt;</MagiaPlant_Pawn.description>
+  <MagiaPlant_Pawn.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</MagiaPlant_Pawn.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <MagiaPlant_Pawn.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>hair</MagiaPlant_Pawn.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <MagiaPlant_Pawn.alienRace.generalSettings.alienPartGenerator.colorChannels.2.name>flower</MagiaPlant_Pawn.alienRace.generalSettings.alienPartGenerator.colorChannels.2.name>
+  <MagiaPlant_Pawn.tools.0.label>歯</MagiaPlant_Pawn.tools.0.label>
+  <MagiaPlant_Pawn.tools.1.label>左拳</MagiaPlant_Pawn.tools.1.label>
+  <MagiaPlant_Pawn.tools.2.label>右拳</MagiaPlant_Pawn.tools.2.label>
+
+
+</LanguageData>

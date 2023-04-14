@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MagiaPlant.UI.MS>MS</MagiaPlant.UI.MS>
+
+  <MagiaPlant.Build.GeneratorFual>感情燃料: </MagiaPlant.Build.GeneratorFual>
+
+  <MagiaPlant.UI.AlertMS_Label>MSが低下中</MagiaPlant.UI.AlertMS_Label>
+  <MagiaPlant.UI.AlertMS_LowDesc>次の自派閥のマギアプラントのMSが,100以下まで低下しています. 直ちにスキルの使用を控える等の対策を行いMSを回復することをオススメします.\n\n{0}\n心情が低い場合,何らかの方法で意識不明にすることでMSの消費を抑えることが出来ます.</MagiaPlant.UI.AlertMS_LowDesc>
+  <MagiaPlant.UI.AlertMS_MidDesc>次の自派閥のマギアプラントのMSが,500以下まで低下しています. スキルの使用を控える等の対策を行いMSを回復することをオススメします.\n\n{0}\n心情が低い場合,何らかの方法で意識不明にすることでMSの消費を抑えることが出来ます.</MagiaPlant.UI.AlertMS_MidDesc>
+
+  <MagiaPlant.UI.label_ContinuousHealing>急速回復</MagiaPlant.UI.label_ContinuousHealing>
+  <MagiaPlant.UI.desc_ContinuousHealing>MSを消費することで,傷や欠損を治癒する状態になります.\n\n傷よりも欠損の治癒の方がMSの消耗が激しいです.</MagiaPlant.UI.desc_ContinuousHealing>
+  <MagiaPlant.UI.label_ShadowEmotions>陰る感情</MagiaPlant.UI.label_ShadowEmotions>
+  <MagiaPlant.UI.desc_ShadowEmotions>MSを急速的に消耗して,一種のトランス状態になります.\n\n発動中,心情が15%以上の場合15%で固定化されて以下の低心情時のボーナスが発動します.\n\n-魔法のクールダウン速度が200%から400%に増加\n-MSを消費してマナを回復する効率が400%に増加\n-MSを消費して魔力の衰弱を回復する効率が400%に増加\n\n更に,身体能力が強化されます.</MagiaPlant.UI.desc_ShadowEmotions>
+  <MagiaPlant.UI.label_RelaxMode>リラックスモード</MagiaPlant.UI.label_RelaxMode>
+  <MagiaPlant.UI.desc_RelaxMode>このスキルを有効化中,"急速回復"と"陰る感情"は使用できません.\n\n自身の能力を極限までセーブして,MSの回復を促進させます.\n\nこのスキルの有効化中,MS回復以外の全ての能力が無効化されます.</MagiaPlant.UI.desc_RelaxMode>
+
+</LanguageData>

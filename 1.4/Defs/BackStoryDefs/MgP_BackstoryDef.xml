@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- 通常のマギアプラント -->
+	<AlienRace.AlienBackstoryDef Name="MgP_Story_Base" Abstract="True">
+		<bodyTypeMale>Female</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<spawnCategories>
+			<li>MgP_Story_Normal</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<!-- 子供 -->
+	
+	<AlienRace.AlienBackstoryDef ParentName="MgP_Story_Base">
+		<defName>MgP_Child_N_A</defName>
+		<slot>Childhood</slot>
+		<title>Factory Production</title>
+		<titleShort>Factory</titleShort>
+		<baseDesc>[PAWN_nameDef] was a factory made MagiaPlant.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="MgP_Story_Base">
+		<defName>MgP_Child_N_B</defName>
+		<slot>Childhood</slot>
+		<title>Born in Colony</title>
+		<titleShort>Colony</titleShort>
+		<baseDesc>[PAWN_nameDef] is not a factory, but a MagiaPlant born to a mother in one of the colonies.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>8</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>8</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<!-- 大人 -->
+	<AlienRace.AlienBackstoryDef ParentName="MgP_Story_Base">
+		<defName>MgP_Adult_N_A</defName>
+		<slot>Adulthood</slot>
+		<title>Attending School</title>
+		<titleShort>School</titleShort>
+		<baseDesc>For some reason, [PAWN_nameDef] had spent some time as a s student. Her experience there must have been a good opportunity for her to feel friendship.</baseDesc>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="MgP_Story_Base">
+		<defName>MgP_Adult_N_B</defName>
+		<slot>Adulthood</slot>
+		<title>Traveler</title>
+		<titleShort>Traveler</titleShort>
+		<baseDesc>[PAWN_nameDef] used to live in the same place all her life, but one day she felt the need to see the outside world. Then she said goodbye to her friends and set out on a journey alone.</baseDesc>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="MgP_Story_Base">
+		<defName>MgP_Adult_N_C</defName>
+		<slot>Adulthood</slot>
+		<title>Messenger of Justice</title>
+		<titleShort>Messenger</titleShort>
+		<baseDesc>[PAWN_nameDef] had confidence in her mysterious power and continued to fight in various places to use this power for the benefit of others.</baseDesc>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="MgP_Story_Base">
+		<defName>MgP_Adult_N_D</defName>
+		<slot>Adulthood</slot>
+		<title>Silent Warrior</title>
+		<titleShort>Warrior</titleShort>
+		<baseDesc>[PAWN_nameDef] once experienced being betrayed by something. Because of this experience, she began to rely solely on her own strength.</baseDesc>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+		<workDisables>Social</workDisables>
+	</AlienRace.AlienBackstoryDef>
+	
+</Defs>

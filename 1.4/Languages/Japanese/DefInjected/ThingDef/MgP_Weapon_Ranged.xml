@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MgP_BrightRod.label>MgP ブライトロッド</MgP_BrightRod.label>
+  <MgP_BrightRod.description>不思議な力を星の弾丸に変化して撃ち出すロッド.\n\n1射ごとに15のMSを消費します.\n\n着弾時,範囲内の全ての生物に壁越しにダメージを与えます.</MgP_BrightRod.description>
+  <MgP_BrightRod.tools.0.label>ロッド</MgP_BrightRod.tools.0.label>
+
+  <MgP_Star.label>MgP スター</MgP_Star.label>
+
+  <MgP_HomingBow.label>MgP ホーミングボウ</MgP_HomingBow.label>
+  <MgP_HomingBow.description>不思議な力を持った矢を撃ち出す弓.\n\n1射ごとに30のMSを消費します.\n\n着弾時,範囲内のランダムな敵に跳弾します.(最大5体)</MgP_HomingBow.description>
+  <MgP_HomingBow.tools.0.label>持ち手</MgP_HomingBow.tools.0.label>
+
+  <MgP_HomingArrow.label>MgP ホーミングアロー</MgP_HomingArrow.label>
+  <MgP_Arrow.label>MgP ホーミングアロー</MgP_Arrow.label>
+
+
+</LanguageData>

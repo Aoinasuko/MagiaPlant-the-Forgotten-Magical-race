@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MagiaPlant.UI.MS>MS</MagiaPlant.UI.MS>
+
+  <MagiaPlant.Build.GeneratorFual>Emotion Fual: </MagiaPlant.Build.GeneratorFual>
+
+  <MagiaPlant.UI.AlertMS_Label>MS is declining</MagiaPlant.UI.AlertMS_Label>
+  <MagiaPlant.UI.AlertMS_LowDesc>The MS of the next MagiaPlant has been reduced to less than 100. It is recommended that you take measures such as refraining from using your skills immediately to recover the MS.\n\n{0}\nIf the mood is low, it is possible to reduce the consumption of MS by rendering the patient unconscious in some way.</MagiaPlant.UI.AlertMS_LowDesc>
+  <MagiaPlant.UI.AlertMS_MidDesc>The MS of the next MagiaPlant has been reduced to less than 500. It is recommended that you take measures such as refraining from using your skills immediately to recover the MS.\n\n{0}\nIf the mood is low, it is possible to reduce the consumption of MS by rendering the patient unconscious in some way.</MagiaPlant.UI.AlertMS_MidDesc>
+
+  <MagiaPlant.UI.label_ContinuousHealing>Continuous Healing</MagiaPlant.UI.label_ContinuousHealing>
+  <MagiaPlant.UI.desc_ContinuousHealing>By consuming MS, the state of healing wounds and defects is set. Healing defects consumes more MS than wounds.</MagiaPlant.UI.desc_ContinuousHealing>
+  <MagiaPlant.UI.label_ShadowEmotions>Shadow Emotions</MagiaPlant.UI.label_ShadowEmotions>
+  <MagiaPlant.UI.desc_ShadowEmotions>The MS is rapidly depleted and a kind of trance is induced.\n\nWhen the mood is 15% or more, it is fixed at 15% and the following bonuses for low mood are applied.\n\n-The cooldown speed of magic is increased from 200% to 400%.\n-The efficiency of mana recovery by consuming MS is increased to 400%.\n-The efficiency of recovering from magical debility by consuming MS is increased to 400%.\n\nIn addition, physical abilities are enhanced.</MagiaPlant.UI.desc_ShadowEmotions>
+  <MagiaPlant.UI.label_RelaxMode>Relax Mode</MagiaPlant.UI.label_RelaxMode>
+  <MagiaPlant.UI.desc_RelaxMode>"Continuous Healing" and "Shadow Emotion" are not available while this skill is activated.\n\nIt saves the maximum of its own ability and accelerates the recovery of MS.\n\nWhile this skill is active, all abilities except MS recovery are disabled.</MagiaPlant.UI.desc_RelaxMode>
+
+</LanguageData>
