@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	
-	<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+	<AlienRace.ThingDef_AlienRace Tag="BEPRace" ParentName="BasePawn">
 		<defName>MagiaPlant_Pawn</defName>
 		<label>Magia Plant</label>
 		<description>MagiaPlant is a species that was discovered when research uncovered an individual that had been kept in a laboratory buried in a certain location on the Forgotten Continent.\nPerhaps due to the influence of a special mechanite, the surface of their bodies was similar to that of plants, but their internal organs and other parts were the same as those of humans, except that they had some plant characteristics.\nIt was easy to increase the number of individuals for research purposes.\nAfter a certain amount of research, the MagiaPlants were sold to various stars, or they set out on their own and emigrated to various stars.\n\nWhen their emotions are aroused, they activate the mechanite in their bodies.\nWhen their Mechanite is activated, they are able to use "magical" powers. but when they run out of magical power, they can turn into monsters.\n\n&lt;color=#FF5555&gt;They consume MS when they use various abilities or recover mana rapidly. Please note that consuming too much MS and reaching zero will be fatal.&lt;/color&gt;</description>
@@ -74,7 +74,7 @@
 						<li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
 						<li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
 					</bodyTypes>
-					<headOffset>(-0.1, -0.186)</headOffset>
+					<headOffset>(-0.1, -0.26)</headOffset>
 					<customDrawSize>(1, 1)</customDrawSize>
 					<customHeadDrawSize>(1, 1)</customHeadDrawSize>
 					<customPortraitDrawSize>(1, 1)</customPortraitDrawSize>
@@ -208,7 +208,7 @@
 					</colorChannels>
 					<bodyAddons>
 						<li>
-							<path>MagiaPlant/Race/Flower/Flower</path>
+							<path>BEPRaceCore/Race/Flower/Flower</path>
 							<bodyPart>Head</bodyPart>
 							<inFrontOfBody>true</inFrontOfBody>
 							<layerInvert>true</layerInvert>
@@ -216,6 +216,7 @@
 							<colorChannel>flower</colorChannel>
 							<drawnInBed>true</drawnInBed>
 							<drawnDesiccated>false</drawnDesiccated>
+							<alignWithHead>true</alignWithHead>
 							<offsets>
 								<west>
 									<layerOffset>-0.27</layerOffset>
@@ -260,21 +261,12 @@
 				</growthAges>
 			</generalSettings>
 			<graphicPaths>
-				<head>
-					<path>MagiaPlant/Race/Head/Average_Normal</path>
-					<headtypeGraphics>
-						<Male_AverageNormal>MagiaPlant/Race/Head/Average_Normal</Male_AverageNormal>
-						<Female_AverageNormal>MagiaPlant/Race/Head/Average_Normal</Female_AverageNormal>
-					</headtypeGraphics>
-				</head>
-				<body>
-					<path>MagiaPlant/Race/Body/</path>
-				</body>
-				<skeleton>MagiaPlant/Race/Bone/Bone</skeleton>
-				<skull>MagiaPlant/Race/HeadBone/HeadBone</skull>
-				<apparel>
-					<!-- Apparel Graphics options go here -->
-				</apparel>
+				<head>BEPRaceCore/Race/Head/Average_Normal</head>
+				<body>BEPRaceCore/Race/Body/Normal/</body>
+				<skeleton>BEPRaceCore/Race/Bone/Bone</skeleton>
+				<skull>BEPRaceCore/Race/HeadBone/HeadBone</skull>
+				<skinShader>Cutout</skinShader>
+				<skinColor>(1,1,1,1)</skinColor>
 			</graphicPaths>
 			<relationSettings>
 				<relationChanceModifierLover>0</relationChanceModifierLover>
@@ -291,17 +283,6 @@
 				<onlyUseRaceRestrictedWeapons>false</onlyUseRaceRestrictedWeapons>
 				<onlyDoRaceRestrictedRecipes>false</onlyDoRaceRestrictedRecipes>
 				<apparelList>
-					<li>MgP_SimpleCloth</li>
-					<li>MgP_BlindfoldandGag</li>
-					<li>MgP_Blindfold</li>
-					<li>MgP_SimpleCollor</li>
-					<li>MgP_SlaveStrap</li>
-					<li>MgP_SimpleArmor</li>
-					<li>MgP_MaidBand</li>
-					<li>MgP_MaidCloth</li>
-					<li>MgP_NobleCloth</li>
-					<li>MgP_NobleCape</li>
-					<li>MgP_SwimSuit</li>
 				</apparelList>
 				<weaponList>
 					<li>MgP_BrightRod</li>
@@ -356,7 +337,7 @@
 					<value>
 						<hasStyle>true</hasStyle>
 						<styleTagsOverride>
-							<li>MagiaPlant</li>
+							<li>BEPRace</li>
 						</styleTagsOverride>
 					</value>
 				</li>
@@ -549,6 +530,15 @@
 		</comps>
 		<inspectorTabs>
 		</inspectorTabs>
+		<modExtensions>
+			<li Class="BEPRace_Core.BEPRace_Setting">
+				<ignoreDead>false</ignoreDead>
+				<fleeMeat>true</fleeMeat>
+				<ignoreAge>true</ignoreAge>
+				<ignoreFlee>true</ignoreFlee>
+				<slaveWorkSpeed>1.0</slaveWorkSpeed>
+			</li>
+		</modExtensions>
 	</AlienRace.ThingDef_AlienRace>
 	
 	<LifeStageDef>

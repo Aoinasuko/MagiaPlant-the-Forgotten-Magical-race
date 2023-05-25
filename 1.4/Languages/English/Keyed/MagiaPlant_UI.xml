@@ -9,6 +9,8 @@
   <MagiaPlant.UI.AlertMS_LowDesc>The MS of the next MagiaPlant has been reduced to less than 100. It is recommended that you take measures such as refraining from using your skills immediately to recover the MS.\n\n{0}\nIf the mood is low, it is possible to reduce the consumption of MS by rendering the patient unconscious in some way.</MagiaPlant.UI.AlertMS_LowDesc>
   <MagiaPlant.UI.AlertMS_MidDesc>The MS of the next MagiaPlant has been reduced to less than 500. It is recommended that you take measures such as refraining from using your skills immediately to recover the MS.\n\n{0}\nIf the mood is low, it is possible to reduce the consumption of MS by rendering the patient unconscious in some way.</MagiaPlant.UI.AlertMS_MidDesc>
 
+  <MagiaPlant.UI.Trans>The power of {0} went out of control and created a disaster.</MagiaPlant.UI.Trans>
+
   <MagiaPlant.UI.label_ContinuousHealing>Continuous Healing</MagiaPlant.UI.label_ContinuousHealing>
   <MagiaPlant.UI.desc_ContinuousHealing>By consuming MS, the state of healing wounds and defects is set. Healing defects consumes more MS than wounds.</MagiaPlant.UI.desc_ContinuousHealing>
   <MagiaPlant.UI.label_ShadowEmotions>Shadow Emotions</MagiaPlant.UI.label_ShadowEmotions>

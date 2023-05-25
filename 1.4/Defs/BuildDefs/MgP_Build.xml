@@ -12,7 +12,7 @@
       <WorkToBuild>3000</WorkToBuild>
       <Flammability>1.0</Flammability>
     </statBases>
-    <designationCategory>BEPFT_Building</designationCategory>
+    <designationCategory>BEP_Building</designationCategory>
     <tickerType>Normal</tickerType>
     <graphicData>
       <texPath>MagiaPlant/Build/Generator/Generator</texPath>

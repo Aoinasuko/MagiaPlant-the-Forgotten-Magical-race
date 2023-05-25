@@ -9,6 +9,8 @@
   <MagiaPlant.UI.AlertMS_LowDesc>次の自派閥のマギアプラントのMSが,100以下まで低下しています. 直ちにスキルの使用を控える等の対策を行いMSを回復することをオススメします.\n\n{0}\n心情が低い場合,何らかの方法で意識不明にすることでMSの消費を抑えることが出来ます.</MagiaPlant.UI.AlertMS_LowDesc>
   <MagiaPlant.UI.AlertMS_MidDesc>次の自派閥のマギアプラントのMSが,500以下まで低下しています. スキルの使用を控える等の対策を行いMSを回復することをオススメします.\n\n{0}\n心情が低い場合,何らかの方法で意識不明にすることでMSの消費を抑えることが出来ます.</MagiaPlant.UI.AlertMS_MidDesc>
 
+  <MagiaPlant.UI.Trans>{0}の力が暴走し,災禍を生み出した.</MagiaPlant.UI.Trans>
+
   <MagiaPlant.UI.label_ContinuousHealing>急速回復</MagiaPlant.UI.label_ContinuousHealing>
   <MagiaPlant.UI.desc_ContinuousHealing>MSを消費することで,傷や欠損を治癒する状態になります.\n\n傷よりも欠損の治癒の方がMSの消耗が激しいです.</MagiaPlant.UI.desc_ContinuousHealing>
   <MagiaPlant.UI.label_ShadowEmotions>陰る感情</MagiaPlant.UI.label_ShadowEmotions>
