@@ -83,6 +83,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ability\CompProperties_AllMagicHeal.cs" />
     <Compile Include="Alert_LowMS.cs" />
     <Compile Include="Comp\Comp_EmotionGenerator.cs" />
     <Compile Include="Comp\Comp_MagiaPlant.cs" />
