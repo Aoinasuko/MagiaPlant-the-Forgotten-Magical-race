@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <XenotypeDef>
+    <defName>MgP_MagiaPlant</defName>
+    <label>MagiaPlant</label>
+    <description>It is a basic MagiaPlant.</description>
+    <iconPath>BEPRaceCore/UI/Gene/BrilliancePower</iconPath>
+    <factionlessGenerationWeight>0</factionlessGenerationWeight>
+    <inheritable>true</inheritable>
+    <genes>
+      <li>BEP_WishPower</li>
+      <li>BEP_Wish_Magic</li>
+      <li>Immunity_SuperStrong</li>
+      <li>Mood_Pessimist</li>
+      <li>MaxTemp_LargeIncrease</li>
+      <li>FireWeakness</li>
+      <li>Delicate</li>
+      <li>RobustDigestion</li>
+      <li>AptitudeRemarkable_Shooting</li>
+      <li>AptitudeRemarkable_Melee</li>
+      <li>AptitudeTerrible_Construction</li>
+      <li>AptitudeTerrible_Mining</li>
+    </genes>
+  </XenotypeDef>
+
+</Defs>

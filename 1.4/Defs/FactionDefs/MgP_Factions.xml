@@ -37,7 +37,7 @@
     <settlementTexturePath>MagiaPlant/UI/Faction/icon</settlementTexturePath>
     <xenotypeSet>
       <xenotypeChances>
-        <Baseliner MayRequire="Ludeon.RimWorld.Biotech">1.0</Baseliner>
+        <MgP_MagiaPlant MayRequire="Ludeon.RimWorld.Biotech">1.0</MgP_MagiaPlant>
       </xenotypeChances>
     </xenotypeSet>
     <modExtensions>
